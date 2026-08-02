@@ -24,7 +24,7 @@ export const botConfig = {
     activities: [
       {
         name: "<:Tiktok:1533509531491893388>", // required by Discord API, not shown in the client
-        state: "",     // this is what people actually see
+        state: "<:Tiktok:1533509531491893388>",     // this is what people actually see
         type: 1,               // Custom
       },
     ],
