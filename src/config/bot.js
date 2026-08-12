@@ -183,7 +183,7 @@ export const botConfig = {
 
     // Beg command random payout range.
     begMin: 5,
-    begMax: 50,
+    begMax: 1000,
 
     // Command cooldowns (milliseconds).
     cooldowns: {
@@ -194,7 +194,7 @@ export const botConfig = {
     },
 
     // Chance to succeed when robbing (0.4 = 40%).
-    robSuccessRate: 0.4,
+    robSuccessRate: 0.9,
 
     // Jail time after failed rob (milliseconds).
     // 3600000 = 1 hour.
